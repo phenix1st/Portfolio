@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hamdi Adem</title>
+  <meta name="description" content="Personal portfolio - edit to add your projects and info">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="mark"><img src="images.jpeg" alt="" class="image-y"></div>
+        <div>
+          <div style="font-weight:800">Hamdi Adem</div>
+          <div style="font-size:12px;color:var(--muted)">Frontend & Backend • Student • Robotics</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#Events">Events</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main class="hero">
+      <div class="hero-card fade-in">
+        <h1 class="name">Hi I'm <span style="background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;">Hmadi Adem AKA Phenix</span></h1>
+        <div class="tag">I build interactive front‑end projects with modern UI and a taste for sleek animations.</div>
+
+        <div class="hero-meta">I'm a computer science student (or your role). I love building fast, accessible interfaces and bringing ideas to life on the web.</div>
+
+        <div class="cta">
+          <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Work with me</button>
+          <a class="btn btn-ghost" href="#projects">See Projects</a>
+        </div>
+
+        <div style="margin-top:18px;color:var(--muted);font-size:14px">Quick links: <a href="#projects" style="color:var(--accent)">Recent work</a> · <a href="#contact" style="color:var(--accent)">Get in touch</a></div>
+      </div>
+
+      <aside class="hero-image">
+        <div class="profile-card glow fade-in">
+          <div class="pf-img"><img src="images.jpeg" alt="" class="extra-image"></div>
+          <div class="pf-name">Hamdi Adem</div>
+          <div style="color:var(--muted);font-size:13px;margin-top:6px"></div> Mad • Algerian • Student</div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about">
+          <div class="card fade-in">
+            <p class="bio">a passionate computer science student from Algeria with a strong interest in AI, front-end development, and aerospace engineering. Driven by curiosity and ambition, you combine technical learning with big-picture goals, aiming to contribute to innovation both locally and globally. Your vision includes working on cutting-edge projects and building solutions that make a real-world impact.</p>
+            <p style="color:var(--muted);margin-top:12px;font-size:14px">Quick facts:</p>
+            <ul style="color:var(--muted);font-size:14px">
+              <li>Languages: HTML, CSS, JavaScript, C, Python</li>
+              <li>Tools: VS Code, Git, Chrome DevTools, Figma, Jupyter NoteBook</li>
+              <li>Interested: Frontend, Backend, AI, Robotics, Aerospace hobby projects</li>
+            </ul>
+          </div>
+
+          <div class="card fade-in">
+            <h3 style="margin:0 0 12px 0">Skills</h3>
+            <div class="skills-grid">
+              <!-- Update skill widths in JS or inline style percentages below -->
+              <div class="skill">
+                <div class="label"><span>HTML & CSS</span><span>95%</span></div>
+                <div class="bar"><i style="width:95%"></i></div>
+              </div>
+              <div class="skill">
+                <div class="label"><span>JavaScript</span><span>40%</span></div>
+                <div class="bar"><i style="width:40%"></i></div>
+              </div>
+              <div class="skill">
+                <div class="label"><span>UI/UX</span><span>75%</span></div>
+                <div class="bar"><i style="width:75%"></i></div>
+              </div>
+              <div class="skill">
+                <div class="label"><span>Django Framework</span><span>70%</span></div>
+                <div class="bar"><i style="width:70%"></i></div>
+              </div>
+              <div class="skill">
+                <div class="label"><span>Python</span><span>85%</span></div>
+                <div class="bar"><i style="width:85%"></i></div>
+              </div>
+              <div class="skill">
+                <div class="label"><span>Arduino with c</span><span>70%</span></div>
+                <div class="bar"><i style="width:70%"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    
+    </section>
+    <!--Events Section-->
+    <section id="Events">
+      <div class="container">
+        <h2 class="section-title">Events</h2>
+        <div class="projects-grid">
+          <!-- COPY / DUPLICATE .proj blocks to add projects. Edit titles, descriptions and add links -->
+          <div class="proj card fade-in" onclick="openProject('#')" >
+            <h3 style="background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent; ">Experia 2025</h3>
+            <img class="picture" src="Capture d’écran (865).png" alt="ramy jus">
+            <p>Experia 2025 is a Ui Ux design hack competetion that i had the honor to participate in. It was organized by OpenMinds Club</p>
+          </div>
+
+          <div class="proj card fade-in" onclick="openProject('#')">
+            <h3 style="background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent; ">Algiers UP 2025</h3>
+            <img class="picture" src="1740162212336.jpeg" alt="ramy jus">
+            <p>𝗔𝗹𝗴𝗶𝗲𝗿𝘀 𝗨𝗣, est un hackathon organisé par 𝗘𝗧𝗜𝗖 en collaboration avec 𝗹’𝗘𝗰𝗼𝗹𝗲 𝗦𝘂𝗽𝗲𝗿𝗶𝗲𝘂𝗿𝗲 𝗱’𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗾𝘂𝗲</p>
+          </div>
+
+          <div class="proj card fade-in" onclick="openProject('#')">
+            <h3 style="background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent; ">T20DSA Challenges</h3>
+            <img class="picture" src="1754804169244.png" alt="ramy jus">
+            <p>August Season of hashtag#T20DSAChallenge Features the underrated yet one of the most frequently asked 🔥 DSA Topic "Stacks & Queues"! 🔥</p>
+          </div>
+
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="card fade-in">
+            <p style="color:var(--muted)">Want to work together? Fill the form or write me directly:</p>
+            <form onsubmit="handleContact(event)">
+              <input id="name" placeholder="Your name" required />
+              <input id="email" placeholder="Your email" type="email" required />
+              <textarea id="message" placeholder="Message" required></textarea>
+              <button class="btn btn-primary" type="submit">Send message</button>
+            </form>
+          </div>
+
+          <div class="card fade-in">
+            <h3 style="margin-top:0">Other ways</h3>
+            <p style="color:var(--muted)">Email: <a href="" style="color:var(--accent)">HamdiAdem062006@gmail.com</a></p>
+             <p style="color:var(--muted)">LinkedIn <a href="" style="color:var(--accent)">https://www.linkedin.com/in/hamdi-adem-766b03233/</a></p>
+              <p style="color:var(--muted)">GitHub: <a href="" style="color:var(--accent)">https://github.com/phenix1st</a></p>
+               <p style="color:var(--muted)">Insta: <a href="" style="color:var(--accent)">https://www.instagram.com/ha_adex_1st/</a></p>
+            
+            <div style="height:12px"></div>
+            <div style="color:var(--muted);font-size:13px">Yo This is Adem AKA Phenix, a CS student passionate about AI, software Dev, Robotics & Entrepreneurship.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div style="opacity:0.8">© <span id="year"></span> Hamdi Adem AKA Phenix</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src = "style.js">
+  </script>
+</body>
+</html>
